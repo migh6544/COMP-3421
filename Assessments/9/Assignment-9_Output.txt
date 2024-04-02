@@ -1,0 +1,837 @@
+Q1 Results:
+{'MI': 'C',
+ '_id': ObjectId('65f3a4b289b9a763c62e88db'),
+ 'age': 90,
+ 'birth': 1929,
+ 'children': ['Madison J Li',
+              'Madison B Li',
+              'Rahul E Li',
+              'Neha J Li',
+              'Bob A Li',
+              'Hasan A Li',
+              'Raj C Li'],
+ 'firstName': 'Isabella',
+ 'height': 161,
+ 'lastName': 'Li',
+ 'numChildren': 7,
+ 'pid': 338,
+ 'salary': 40189,
+ 'state': 'GA',
+ 'weight': 131}
+{'MI': 'Y',
+ '_id': ObjectId('65f3a4b289b9a763c62e8917'),
+ 'age': 60,
+ 'birth': 1959,
+ 'children': ['Amy I Wong',
+              'Vicky B Wong',
+              'Mohammad R Wong',
+              'Jeffrey O Wong',
+              'Joseph X Wong',
+              'Jayden B Wong',
+              'Hannah H Wong'],
+ 'firstName': 'Bob',
+ 'height': 183,
+ 'lastName': 'Wong',
+ 'numChildren': 7,
+ 'pid': 398,
+ 'salary': 108314,
+ 'state': 'IL',
+ 'weight': 53}
+{'MI': 'V',
+ '_id': ObjectId('65f3a4b289b9a763c62e8932'),
+ 'age': 30,
+ 'birth': 1989,
+ 'children': ['Ashley O Ngyuen',
+              'Neha Q Ngyuen',
+              'William T Ngyuen',
+              'Priya N Ngyuen',
+              'David D Ngyuen',
+              'Mohammed J Ngyuen',
+              'Mary L Ngyuen'],
+ 'firstName': 'John',
+ 'height': 181,
+ 'lastName': 'Ngyuen',
+ 'numChildren': 7,
+ 'pid': 425,
+ 'salary': 38393,
+ 'state': 'CO',
+ 'weight': 137}
+{'MI': 'E',
+ '_id': ObjectId('65f3a4b289b9a763c62e8a85'),
+ 'age': 80,
+ 'birth': 1939,
+ 'children': ['Paul O Mukherjee',
+              'William A Mukherjee',
+              'Noah S Mukherjee',
+              'Santiago M Mukherjee',
+              'Paul Y Mukherjee',
+              'Jeffrey N Mukherjee',
+              'Sarah P Mukherjee'],
+ 'firstName': 'Alejandro',
+ 'height': 191,
+ 'lastName': 'Mukherjee',
+ 'numChildren': 7,
+ 'pid': 764,
+ 'salary': 78221,
+ 'state': 'FL',
+ 'weight': 121}
+{'MI': 'X',
+ '_id': ObjectId('65f3a4b289b9a763c62e8ab3'),
+ 'age': 71,
+ 'birth': 1948,
+ 'children': ['Amit X Park',
+              'Jennifer Z Park',
+              'Hasan A Park',
+              'William P Park',
+              'Diego F Park',
+              'Ashley E Park',
+              'Bob N Park'],
+ 'firstName': 'Isabella',
+ 'height': 152,
+ 'lastName': 'Park',
+ 'numChildren': 7,
+ 'pid': 810,
+ 'salary': 91350,
+ 'state': 'WY',
+ 'weight': 83}
+{'MI': 'L',
+ '_id': ObjectId('65f3a4b289b9a763c62e8b0f'),
+ 'age': 99,
+ 'birth': 1920,
+ 'children': ['Amy K Baker',
+              'Jayden I Baker',
+              'Victoria N Baker',
+              'Michelle G Baker',
+              'Vicky B Baker',
+              'Tanya Y Baker',
+              'Kayla M Baker'],
+ 'firstName': 'Kayla',
+ 'height': 151,
+ 'lastName': 'Baker',
+ 'numChildren': 7,
+ 'pid': 902,
+ 'salary': 129939,
+ 'state': 'FL',
+ 'weight': 68}
+{'MI': 'S',
+ '_id': ObjectId('65f3a4b289b9a763c62e8b18'),
+ 'age': 24,
+ 'birth': 1995,
+ 'children': ['Hannah N Mukherjee',
+              'Isabella X Mukherjee',
+              'Demarco T Mukherjee',
+              'Peter P Mukherjee',
+              'Michelle L Mukherjee',
+              'Jayla R Mukherjee',
+              'Peter Z Mukherjee'],
+ 'firstName': 'Priya',
+ 'height': 150,
+ 'lastName': 'Mukherjee',
+ 'numChildren': 7,
+ 'pid': 911,
+ 'salary': 99812,
+ 'state': 'AL',
+ 'weight': 80}
+{'MI': 'J',
+ '_id': ObjectId('65f3a4b289b9a763c62e8c13'),
+ 'age': 94,
+ 'birth': 1925,
+ 'children': ['Jennifer G Sato',
+              'Sofia X Sato',
+              'Vicky O Sato',
+              'Paul B Sato',
+              'Julia O Sato',
+              'William Y Sato',
+              'Fatimah E Sato'],
+ 'firstName': 'Paul',
+ 'height': 198,
+ 'lastName': 'Sato',
+ 'numChildren': 7,
+ 'pid': 1162,
+ 'salary': 54261,
+ 'state': 'AZ',
+ 'weight': 90}
+{'MI': 'M',
+ '_id': ObjectId('65f3a4b389b9a763c62e8cb9'),
+ 'age': 112,
+ 'birth': 1907,
+ 'children': ['Isabella K Hernandez',
+              'Jennifer P Hernandez',
+              'Diego O Hernandez',
+              'Amit N Hernandez',
+              'Ashley Y Hernandez',
+              'Michelle S Hernandez',
+              'Linda S Hernandez'],
+ 'firstName': 'Alejandro',
+ 'height': 186,
+ 'lastName': 'Hernandez',
+ 'numChildren': 7,
+ 'pid': 1328,
+ 'salary': 52477,
+ 'state': 'SD',
+ 'weight': 63}
+{'MI': 'J',
+ '_id': ObjectId('65f3a4b389b9a763c62e8cca'),
+ 'age': 57,
+ 'birth': 1962,
+ 'children': ['Amit Q Johnson',
+              'Linda K Johnson',
+              'Noah U Johnson',
+              'Tanya A Johnson',
+              'Peter W Johnson',
+              'Mohammad W Johnson',
+              'Hasan W Johnson'],
+ 'firstName': 'Raj',
+ 'height': 174,
+ 'lastName': 'Johnson',
+ 'numChildren': 7,
+ 'pid': 1345,
+ 'salary': 30933,
+ 'state': 'FL',
+ 'weight': 112}
+{'MI': 'Y',
+ '_id': ObjectId('65f3a4b389b9a763c62e8d3b'),
+ 'age': 69,
+ 'birth': 1950,
+ 'children': ['Amit W Lopez',
+              'Linda U Lopez',
+              'Madison A Lopez',
+              'David V Lopez',
+              'Bob K Lopez',
+              'Fatimah M Lopez',
+              'Julia W Lopez'],
+ 'firstName': 'Joseph',
+ 'height': 192,
+ 'lastName': 'Lopez',
+ 'numChildren': 7,
+ 'pid': 1458,
+ 'salary': 39859,
+ 'state': 'OR',
+ 'weight': 81}
+{'MI': 'E',
+ '_id': ObjectId('65f3a4b389b9a763c62e8d4b'),
+ 'age': 102,
+ 'birth': 1917,
+ 'children': ['Bob Y Sato',
+              'Mohammed F Sato',
+              'Hannah W Sato',
+              'Jayla K Sato',
+              'Julia B Sato',
+              'Ava M Sato',
+              'John U Sato'],
+ 'firstName': 'Isabella',
+ 'height': 187,
+ 'lastName': 'Sato',
+ 'numChildren': 7,
+ 'pid': 1474,
+ 'salary': 98408,
+ 'state': 'NH',
+ 'weight': 132}
+{'MI': 'Q',
+ '_id': ObjectId('65f3a4b389b9a763c62e8d74'),
+ 'age': 46,
+ 'birth': 1973,
+ 'children': ['Madison Q Williams',
+              'Valentina C Williams',
+              'Jayden O Williams',
+              'Linda T Williams',
+              'Ava D Williams',
+              'Rahul Z Williams',
+              'Mohammad M Williams'],
+ 'firstName': 'Julia',
+ 'height': 192,
+ 'lastName': 'Williams',
+ 'numChildren': 7,
+ 'pid': 1515,
+ 'salary': 57499,
+ 'state': 'MS',
+ 'weight': 135}
+{'MI': 'J',
+ '_id': ObjectId('65f3a4b389b9a763c62e8e40'),
+ 'age': 116,
+ 'birth': 1903,
+ 'children': ['Priya Z Liu',
+              'Sarah W Liu',
+              'Peter U Liu',
+              'Sofia R Liu',
+              'William X Liu',
+              'John D Liu',
+              'Mary Y Liu'],
+ 'firstName': 'Jayla',
+ 'height': 161,
+ 'lastName': 'Liu',
+ 'numChildren': 7,
+ 'pid': 1719,
+ 'salary': 77104,
+ 'state': 'CA',
+ 'weight': 81}
+{'MI': 'H',
+ '_id': ObjectId('65f3a4b389b9a763c62e8e4a'),
+ 'age': 80,
+ 'birth': 1939,
+ 'children': ['Jeffrey W Dang',
+              'Rahul N Dang',
+              'Raj Y Dang',
+              'Peter J Dang',
+              'Michelle B Dang',
+              'Daniella Z Dang',
+              'Alejandro E Dang'],
+ 'firstName': 'David',
+ 'height': 184,
+ 'lastName': 'Dang',
+ 'numChildren': 7,
+ 'pid': 1729,
+ 'salary': 111383,
+ 'state': 'VT',
+ 'weight': 48}
+{'MI': 'D',
+ '_id': ObjectId('65f3a4b389b9a763c62e8ed7'),
+ 'age': 105,
+ 'birth': 1914,
+ 'children': ['John Z Tran',
+              'Peter D Tran',
+              'David V Tran',
+              'Mohammed Z Tran',
+              'Ava H Tran',
+              'Jennifer T Tran',
+              'Valentina W Tran'],
+ 'firstName': 'Mohammed',
+ 'height': 154,
+ 'lastName': 'Tran',
+ 'numChildren': 7,
+ 'pid': 1870,
+ 'salary': 114052,
+ 'state': 'NM',
+ 'weight': 41}
+
+Q2 Results:
+{'children': ['Madison J Li',
+              'Madison B Li',
+              'Rahul E Li',
+              'Neha J Li',
+              'Bob A Li',
+              'Hasan A Li',
+              'Raj C Li'],
+ 'pid': 338,
+ 'state': 'GA'}
+{'children': ['Amy I Wong',
+              'Vicky B Wong',
+              'Mohammad R Wong',
+              'Jeffrey O Wong',
+              'Joseph X Wong',
+              'Jayden B Wong',
+              'Hannah H Wong'],
+ 'pid': 398,
+ 'state': 'IL'}
+{'children': ['Ashley O Ngyuen',
+              'Neha Q Ngyuen',
+              'William T Ngyuen',
+              'Priya N Ngyuen',
+              'David D Ngyuen',
+              'Mohammed J Ngyuen',
+              'Mary L Ngyuen'],
+ 'pid': 425,
+ 'state': 'CO'}
+{'children': ['Paul O Mukherjee',
+              'William A Mukherjee',
+              'Noah S Mukherjee',
+              'Santiago M Mukherjee',
+              'Paul Y Mukherjee',
+              'Jeffrey N Mukherjee',
+              'Sarah P Mukherjee'],
+ 'pid': 764,
+ 'state': 'FL'}
+{'children': ['Amit X Park',
+              'Jennifer Z Park',
+              'Hasan A Park',
+              'William P Park',
+              'Diego F Park',
+              'Ashley E Park',
+              'Bob N Park'],
+ 'pid': 810,
+ 'state': 'WY'}
+{'children': ['Amy K Baker',
+              'Jayden I Baker',
+              'Victoria N Baker',
+              'Michelle G Baker',
+              'Vicky B Baker',
+              'Tanya Y Baker',
+              'Kayla M Baker'],
+ 'pid': 902,
+ 'state': 'FL'}
+{'children': ['Hannah N Mukherjee',
+              'Isabella X Mukherjee',
+              'Demarco T Mukherjee',
+              'Peter P Mukherjee',
+              'Michelle L Mukherjee',
+              'Jayla R Mukherjee',
+              'Peter Z Mukherjee'],
+ 'pid': 911,
+ 'state': 'AL'}
+{'children': ['Jennifer G Sato',
+              'Sofia X Sato',
+              'Vicky O Sato',
+              'Paul B Sato',
+              'Julia O Sato',
+              'William Y Sato',
+              'Fatimah E Sato'],
+ 'pid': 1162,
+ 'state': 'AZ'}
+{'children': ['Isabella K Hernandez',
+              'Jennifer P Hernandez',
+              'Diego O Hernandez',
+              'Amit N Hernandez',
+              'Ashley Y Hernandez',
+              'Michelle S Hernandez',
+              'Linda S Hernandez'],
+ 'pid': 1328,
+ 'state': 'SD'}
+{'children': ['Amit Q Johnson',
+              'Linda K Johnson',
+              'Noah U Johnson',
+              'Tanya A Johnson',
+              'Peter W Johnson',
+              'Mohammad W Johnson',
+              'Hasan W Johnson'],
+ 'pid': 1345,
+ 'state': 'FL'}
+{'children': ['Amit W Lopez',
+              'Linda U Lopez',
+              'Madison A Lopez',
+              'David V Lopez',
+              'Bob K Lopez',
+              'Fatimah M Lopez',
+              'Julia W Lopez'],
+ 'pid': 1458,
+ 'state': 'OR'}
+{'children': ['Bob Y Sato',
+              'Mohammed F Sato',
+              'Hannah W Sato',
+              'Jayla K Sato',
+              'Julia B Sato',
+              'Ava M Sato',
+              'John U Sato'],
+ 'pid': 1474,
+ 'state': 'NH'}
+{'children': ['Madison Q Williams',
+              'Valentina C Williams',
+              'Jayden O Williams',
+              'Linda T Williams',
+              'Ava D Williams',
+              'Rahul Z Williams',
+              'Mohammad M Williams'],
+ 'pid': 1515,
+ 'state': 'MS'}
+{'children': ['Priya Z Liu',
+              'Sarah W Liu',
+              'Peter U Liu',
+              'Sofia R Liu',
+              'William X Liu',
+              'John D Liu',
+              'Mary Y Liu'],
+ 'pid': 1719,
+ 'state': 'CA'}
+{'children': ['Jeffrey W Dang',
+              'Rahul N Dang',
+              'Raj Y Dang',
+              'Peter J Dang',
+              'Michelle B Dang',
+              'Daniella Z Dang',
+              'Alejandro E Dang'],
+ 'pid': 1729,
+ 'state': 'VT'}
+{'children': ['John Z Tran',
+              'Peter D Tran',
+              'David V Tran',
+              'Mohammed Z Tran',
+              'Ava H Tran',
+              'Jennifer T Tran',
+              'Valentina W Tran'],
+ 'pid': 1870,
+ 'state': 'NM'}
+
+Q3 Results:
+{'MI': 'M',
+ '_id': ObjectId('65f3a4b289b9a763c62e895c'),
+ 'age': 24,
+ 'birth': 1995,
+ 'children': ['Santiago N Martinez',
+              'Bob Y Martinez',
+              'Sofia Y Martinez',
+              'Linda N Martinez',
+              'Daniella C Martinez',
+              'William V Martinez'],
+ 'firstName': 'Priya',
+ 'height': 180,
+ 'lastName': 'Martinez',
+ 'numChildren': 6,
+ 'pid': 467,
+ 'salary': 70797,
+ 'state': 'CA',
+ 'weight': 89}
+{'MI': 'S',
+ '_id': ObjectId('65f3a4b389b9a763c62e8c6a'),
+ 'age': 26,
+ 'birth': 1993,
+ 'children': ['Ashley P Gonzalez',
+              'Vivek W Gonzalez',
+              'Vivek Y Gonzalez',
+              'Ashley Q Gonzalez',
+              'Ashley E Gonzalez',
+              'John W Gonzalez'],
+ 'firstName': 'Linda',
+ 'height': 167,
+ 'lastName': 'Gonzalez',
+ 'numChildren': 6,
+ 'pid': 1249,
+ 'salary': 72713,
+ 'state': 'CA',
+ 'weight': 45}
+
+Q4 Results:
+{'MI': 'M',
+ '_id': ObjectId('65f3a4b289b9a763c62e895c'),
+ 'age': 24,
+ 'birth': 1995,
+ 'children': ['Santiago N Martinez',
+              'Bob Y Martinez',
+              'Sofia Y Martinez',
+              'Linda N Martinez',
+              'Daniella C Martinez',
+              'William V Martinez'],
+ 'firstName': 'Priya',
+ 'height': 180,
+ 'lastName': 'Martinez',
+ 'numChildren': 6,
+ 'pid': 467,
+ 'salary': 70797,
+ 'state': 'CA',
+ 'weight': 89}
+{'MI': 'S',
+ '_id': ObjectId('65f3a4b389b9a763c62e8c6a'),
+ 'age': 26,
+ 'birth': 1993,
+ 'children': ['Ashley P Gonzalez',
+              'Vivek W Gonzalez',
+              'Vivek Y Gonzalez',
+              'Ashley Q Gonzalez',
+              'Ashley E Gonzalez',
+              'John W Gonzalez'],
+ 'firstName': 'Linda',
+ 'height': 167,
+ 'lastName': 'Gonzalez',
+ 'numChildren': 6,
+ 'pid': 1249,
+ 'salary': 72713,
+ 'state': 'CA',
+ 'weight': 45}
+{'MI': 'J',
+ '_id': ObjectId('65f3a4b389b9a763c62e8e40'),
+ 'age': 116,
+ 'birth': 1903,
+ 'children': ['Priya Z Liu',
+              'Sarah W Liu',
+              'Peter U Liu',
+              'Sofia R Liu',
+              'William X Liu',
+              'John D Liu',
+              'Mary Y Liu'],
+ 'firstName': 'Jayla',
+ 'height': 161,
+ 'lastName': 'Liu',
+ 'numChildren': 7,
+ 'pid': 1719,
+ 'salary': 77104,
+ 'state': 'CA',
+ 'weight': 81}
+
+Q5 Results:
+{'children': ['Vicky U Wilson', 'Noah X Wilson', 'Bob A Wilson'], 'pid': 2}
+{'children': ['Madison J Li',
+              'Madison B Li',
+              'Rahul E Li',
+              'Neha J Li',
+              'Bob A Li',
+              'Hasan A Li',
+              'Raj C Li'],
+ 'pid': 338}
+{'children': ['Bob A Zhao', 'Tanya F Zhao', 'Vicky M Zhao'], 'pid': 1040}
+{'children': ['Kayla W Jackson',
+              'Bob A Jackson',
+              'Rahul S Jackson',
+              'Vivek J Jackson'],
+ 'pid': 1210}
+{'children': ['Neha C Chan', 'Bob A Chan', 'Tanya K Chan', 'Jayla C Chan'],
+ 'pid': 1411}
+
+Q6 Results:
+{'_id': 4, 'numInGroup': 437}
+{'_id': 0, 'numInGroup': 67}
+{'_id': 3, 'numInGroup': 569}
+{'_id': 2, 'numInGroup': 408}
+{'_id': 6, 'numInGroup': 78}
+{'_id': 5, 'numInGroup': 250}
+{'_id': 8, 'numInGroup': 2}
+{'_id': 7, 'numInGroup': 16}
+{'_id': 1, 'numInGroup': 173}
+
+Q7 Results:
+{'_id': 'ME', 'avgSalary': 64820.44827586207, 'numInGroup': 29}
+{'_id': 'NV', 'avgSalary': 80805.23809523809, 'numInGroup': 42}
+{'_id': 'VT', 'avgSalary': 69773.73469387754, 'numInGroup': 49}
+{'_id': 'OH', 'avgSalary': 81560.09302325582, 'numInGroup': 43}
+{'_id': 'NH', 'avgSalary': 78727.33333333333, 'numInGroup': 36}
+{'_id': 'AK', 'avgSalary': 86931.97619047618, 'numInGroup': 42}
+{'_id': 'NJ', 'avgSalary': 91666.93103448275, 'numInGroup': 29}
+{'_id': 'AZ', 'avgSalary': 80633.58666666667, 'numInGroup': 75}
+{'_id': 'WV', 'avgSalary': 71989.26190476191, 'numInGroup': 42}
+{'_id': 'NY', 'avgSalary': 83155.72222222222, 'numInGroup': 54}
+{'_id': 'MD', 'avgSalary': 82684.55555555556, 'numInGroup': 45}
+{'_id': 'AL', 'avgSalary': 76397.41304347826, 'numInGroup': 46}
+{'_id': 'RI', 'avgSalary': 81733.62068965517, 'numInGroup': 29}
+{'_id': 'ID', 'avgSalary': 81497.725, 'numInGroup': 40}
+{'_id': 'FL', 'avgSalary': 85303.60869565218, 'numInGroup': 46}
+{'_id': 'ND', 'avgSalary': 92167.31818181818, 'numInGroup': 44}
+{'_id': 'CT', 'avgSalary': 86389.48148148147, 'numInGroup': 27}
+{'_id': 'OR', 'avgSalary': 76614.54545454546, 'numInGroup': 44}
+{'_id': 'IA', 'avgSalary': 84773.19230769231, 'numInGroup': 26}
+{'_id': 'IL', 'avgSalary': 80329.17948717948, 'numInGroup': 39}
+{'_id': 'SD', 'avgSalary': 81560.26, 'numInGroup': 50}
+{'_id': 'NC', 'avgSalary': 74043.69444444444, 'numInGroup': 36}
+{'_id': 'WY', 'avgSalary': 80849.47916666667, 'numInGroup': 48}
+{'_id': 'MT', 'avgSalary': 77147.83333333333, 'numInGroup': 42}
+{'_id': 'KS', 'avgSalary': 82822.25, 'numInGroup': 36}
+{'_id': 'MO', 'avgSalary': 71023.06976744186, 'numInGroup': 43}
+{'_id': 'MN', 'avgSalary': 79788.08333333333, 'numInGroup': 36}
+{'_id': 'VA', 'avgSalary': 80331.0, 'numInGroup': 39}
+{'_id': 'HI', 'avgSalary': 75374.06976744186, 'numInGroup': 43}
+{'_id': 'MA', 'avgSalary': 76031.4255319149, 'numInGroup': 47}
+{'_id': 'MS', 'avgSalary': 76276.27272727272, 'numInGroup': 44}
+{'_id': 'TX', 'avgSalary': 78097.27272727272, 'numInGroup': 44}
+{'_id': 'PA', 'avgSalary': 75458.61538461539, 'numInGroup': 39}
+{'_id': 'TN', 'avgSalary': 90134.0, 'numInGroup': 29}
+{'_id': 'UT', 'avgSalary': 82353.93023255814, 'numInGroup': 43}
+{'_id': 'DE', 'avgSalary': 81791.9, 'numInGroup': 40}
+{'_id': 'WI', 'avgSalary': 81550.875, 'numInGroup': 24}
+{'_id': 'OK', 'avgSalary': 82044.42424242424, 'numInGroup': 33}
+{'_id': 'CA', 'avgSalary': 77116.1282051282, 'numInGroup': 39}
+{'_id': 'SC', 'avgSalary': 81701.57777777778, 'numInGroup': 45}
+{'_id': 'MI', 'avgSalary': 77196.51351351352, 'numInGroup': 37}
+{'_id': 'IN', 'avgSalary': 80722.02564102564, 'numInGroup': 39}
+{'_id': 'WA', 'avgSalary': 79021.79591836735, 'numInGroup': 49}
+{'_id': 'LA', 'avgSalary': 78642.43589743589, 'numInGroup': 39}
+{'_id': 'CO', 'avgSalary': 83968.02222222222, 'numInGroup': 45}
+{'_id': 'NM', 'avgSalary': 84028.53488372093, 'numInGroup': 43}
+{'_id': 'NE', 'avgSalary': 72756.17391304347, 'numInGroup': 46}
+{'_id': 'GA', 'avgSalary': 85883.92307692308, 'numInGroup': 39}
+{'_id': 'KY', 'avgSalary': 75237.83333333333, 'numInGroup': 36}
+
+Q8 Results:
+{'_id': 'WI', 'avgSalary': 81550.875, 'numInGroup': 24}
+
+Q9 Results:
+{'_id': 'KS', 'avgSalary': 82822.25, 'maxSalary': 129962, 'minSalary': 30954}
+{'_id': 'SD', 'avgSalary': 81560.26, 'maxSalary': 129228, 'minSalary': 34495}
+{'_id': 'IL',
+ 'avgSalary': 80329.17948717948,
+ 'maxSalary': 127126,
+ 'minSalary': 32045}
+{'_id': 'IA',
+ 'avgSalary': 84773.19230769231,
+ 'maxSalary': 129977,
+ 'minSalary': 32278}
+{'_id': 'NE',
+ 'avgSalary': 72756.17391304347,
+ 'maxSalary': 129283,
+ 'minSalary': 30179}
+{'_id': 'WI', 'avgSalary': 81550.875, 'maxSalary': 124138, 'minSalary': 34027}
+{'_id': 'ND',
+ 'avgSalary': 92167.31818181818,
+ 'maxSalary': 129437,
+ 'minSalary': 38172}
+{'_id': 'MS',
+ 'avgSalary': 76276.27272727272,
+ 'maxSalary': 127985,
+ 'minSalary': 30342}
+{'_id': 'IN',
+ 'avgSalary': 80722.02564102564,
+ 'maxSalary': 128675,
+ 'minSalary': 32116}
+{'_id': 'MI',
+ 'avgSalary': 77196.51351351352,
+ 'maxSalary': 128868,
+ 'minSalary': 35749}
+{'_id': 'OH',
+ 'avgSalary': 81560.09302325582,
+ 'maxSalary': 129487,
+ 'minSalary': 31223}
+{'_id': 'MN',
+ 'avgSalary': 79788.08333333333,
+ 'maxSalary': 125317,
+ 'minSalary': 31425}
+
+Q10 Results:
+{'_id': 'AK', 'avgSalary': 86931.97619047618}
+{'_id': 'NJ', 'avgSalary': 91666.93103448275}
+{'_id': 'NY', 'avgSalary': 83155.72222222222}
+{'_id': 'MD', 'avgSalary': 82684.55555555556}
+{'_id': 'CT', 'avgSalary': 86389.48148148147}
+{'_id': 'ND', 'avgSalary': 92167.31818181818}
+{'_id': 'FL', 'avgSalary': 85303.60869565218}
+{'_id': 'IA', 'avgSalary': 84773.19230769231}
+{'_id': 'KS', 'avgSalary': 82822.25}
+{'_id': 'TN', 'avgSalary': 90134.0}
+{'_id': 'UT', 'avgSalary': 82353.93023255814}
+{'_id': 'OK', 'avgSalary': 82044.42424242424}
+{'_id': 'CO', 'avgSalary': 83968.02222222222}
+{'_id': 'NM', 'avgSalary': 84028.53488372093}
+{'_id': 'GA', 'avgSalary': 85883.92307692308}
+
+Q11 Results:
+{'_id': 'KS',
+ 'avgSalary': 82822.25,
+ 'maxSalary': 129962,
+ 'minSalary': 30954,
+ 'numInGroup': 36}
+{'_id': 'IA',
+ 'avgSalary': 84773.19230769231,
+ 'maxSalary': 129977,
+ 'minSalary': 32278,
+ 'numInGroup': 26}
+{'_id': 'ND',
+ 'avgSalary': 92167.31818181818,
+ 'maxSalary': 129437,
+ 'minSalary': 38172,
+ 'numInGroup': 44}
+
+Update single document example:
+Before update:
+{'MI': 'Y',
+ '_id': ObjectId('65f3a4b289b9a763c62e8789'),
+ 'age': 74,
+ 'birth': 1945,
+ 'children': ['Mohammad K Lopez',
+              'Ashley X Lopez',
+              'Raj A Lopez',
+              'Sarah M Lopez',
+              'Demarco H Lopez'],
+ 'firstName': 'Vivek',
+ 'height': 150,
+ 'lastName': 'Lopez',
+ 'numChildren': 5,
+ 'pid': 0,
+ 'salary': 55365,
+ 'state': 'MD',
+ 'weight': 112}
+After update:
+{'MI': 'Y',
+ '_id': ObjectId('65f3a4b289b9a763c62e8789'),
+ 'age': 25,
+ 'birth': 1945,
+ 'children': ['Mohammad K Lopez',
+              'Ashley X Lopez',
+              'Raj A Lopez',
+              'Sarah M Lopez',
+              'Demarco H Lopez'],
+ 'firstName': 'Vivek',
+ 'height': 150,
+ 'lastName': 'Lopez',
+ 'numChildren': 5,
+ 'pid': 0,
+ 'salary': 55365,
+ 'state': 'MD',
+ 'weight': 112}
+
+Update multiple documents example:
+Before update:
+[{'MI': 'Q',
+  '_id': ObjectId('65f3a4b289b9a763c62e881c'),
+  'age': 67,
+  'birth': 1952,
+  'children': ['Michelle Y Kim', 'David F Kim'],
+  'firstName': 'Jayla',
+  'height': 164,
+  'lastName': 'Kim',
+  'numChildren': 2,
+  'pid': 147,
+  'salary': 88429,
+  'state': 'CA',
+  'weight': 100},
+ {'MI': 'T',
+  '_id': ObjectId('65f3a4b289b9a763c62e883e'),
+  'age': 107,
+  'birth': 1912,
+  'children': ['Sofia T Anderson', 'Michelle D Anderson'],
+  'firstName': 'Jeffrey',
+  'height': 192,
+  'lastName': 'Anderson',
+  'numChildren': 2,
+  'pid': 181,
+  'salary': 58219,
+  'state': 'CA',
+  'weight': 103}]
+After update:
+[{'MI': 'Q',
+  '_id': ObjectId('65f3a4b289b9a763c62e881c'),
+  'age': 67,
+  'birth': 1952,
+  'children': ['Michelle Y Kim', 'David F Kim'],
+  'firstName': 'Jayla',
+  'height': 164,
+  'lastName': 'Kim',
+  'numChildren': 2,
+  'pid': 147,
+  'salary': 90000,
+  'state': 'CA',
+  'weight': 100},
+ {'MI': 'T',
+  '_id': ObjectId('65f3a4b289b9a763c62e883e'),
+  'age': 107,
+  'birth': 1912,
+  'children': ['Sofia T Anderson', 'Michelle D Anderson'],
+  'firstName': 'Jeffrey',
+  'height': 192,
+  'lastName': 'Anderson',
+  'numChildren': 2,
+  'pid': 181,
+  'salary': 90000,
+  'state': 'CA',
+  'weight': 103}]
+
+Delete multiple documents example:
+Before delete:
+[{'MI': 'M',
+  '_id': ObjectId('65f3a4b289b9a763c62e87a7'),
+  'age': 22,
+  'birth': 1997,
+  'children': ['Kayla M Ngyuen',
+               'Hasan E Ngyuen',
+               'Hannah S Ngyuen',
+               'Isabella G Ngyuen'],
+  'firstName': 'Ava',
+  'height': 158,
+  'lastName': 'Ngyuen',
+  'numChildren': 4,
+  'pid': 30,
+  'salary': 108902,
+  'state': 'WA',
+  'weight': 80},
+ {'MI': 'M',
+  '_id': ObjectId('65f3a4b289b9a763c62e87b4'),
+  'age': 21,
+  'birth': 1998,
+  'children': ['Linda G Mukherjee',
+               'Victoria V Mukherjee',
+               'Vivek P Mukherjee',
+               'Vicky A Mukherjee'],
+  'firstName': 'Fatimah',
+  'height': 183,
+  'lastName': 'Mukherjee',
+  'numChildren': 4,
+  'pid': 43,
+  'salary': 82851,
+  'state': 'NH',
+  'weight': 95}]
+After delete:
+[]
+Documents deleted: 144

@@ -1,0 +1,103 @@
+set global local_infile = 1 ;
+
+drop table if exists AppliedTo ;
+drop table if exists Interviewed ;
+drop table if exists Requisitions ;
+drop table if exists Candidates ;
+drop table if exists Departments ;
+drop table if exists Recruiters ;
+
+create table Candidates (
+  canID varchar(20) NOT NULL,
+  canName varchar(20) NOT NULL,
+  education varchar(20),
+  Primary Key (canID)
+  )
+;
+
+create table Departments (
+  depID varchar(20) NOT NULL,
+  depName varchar(20) NOT NULL,
+  manager varchar(20),
+  Primary Key (depID)
+  )
+;
+
+
+create table Recruiters (
+  recID varchar(20) NOT NULL,
+  recName varchar(20) NOT NULL,
+  location varchar(20),
+  Primary Key (recID)
+  )
+;
+
+create table Requisitions (
+  reqID varchar(20) NOT NULL,
+  depID varchar(20) NOT NULL,
+  recID varchar(20) NOT NULL,
+  title varchar(20),
+  salary int,
+  opnDate date NOT NULL,
+  endDate date NOT NULL,
+  Primary Key (reqID),
+  Foreign Key (depID) references Departments(depID),
+  Foreign Key (recID) references Recruiters(recID) 
+  )
+;
+
+create table Interviewed (
+  canID varchar(20) NOT NULL,
+  recID varchar(20) NOT NULL,
+  intDate date NOT NULL,
+  Primary Key (canID, recID, intDate),
+  Foreign Key (canID) references Candidates(canID),
+  Foreign Key (recID) references Recruiters(recID) 
+  )
+;
+
+create table AppliedTo (
+  canID varchar(20) NOT NULL,
+  reqID varchar(20) NOT NULL,
+  appDate date NOT NULL,
+  Primary Key (canID, reqID, appDate),
+  Foreign Key (canID) references Candidates(canID),
+  Foreign Key (reqID) references Requisitions(reqID) 
+  )
+;
+
+-- Load data for Candidates table
+LOAD DATA LOCAL INFILE '/Users/Home/Documents/Michael_Ghattas/School/DU/MS/Class/2024/Winter/COMP_3421/Assessments/4/data/Candidates.txt' 
+INTO TABLE Candidates 
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n';
+
+-- Load data for Departments table
+LOAD DATA LOCAL INFILE '/Users/Home/Documents/Michael_Ghattas/School/DU/MS/Class/2024/Winter/COMP_3421/Assessments/4/data/Departments.txt' 
+INTO TABLE Departments 
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n';
+
+-- Load data for Recruiters table
+LOAD DATA LOCAL INFILE '/Users/Home/Documents/Michael_Ghattas/School/DU/MS/Class/2024/Winter/COMP_3421/Assessments/4/data/Recruiters.txt' 
+INTO TABLE Recruiters 
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n';
+
+-- Load data for Requisitions table
+LOAD DATA LOCAL INFILE '/Users/Home/Documents/Michael_Ghattas/School/DU/MS/Class/2024/Winter/COMP_3421/Assessments/4/data/Requisitions.txt' 
+INTO TABLE Requisitions 
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n';
+
+-- Load data for AppliedTo table
+LOAD DATA LOCAL INFILE '/Users/Home/Documents/Michael_Ghattas/School/DU/MS/Class/2024/Winter/COMP_3421/Assessments/4/data/AppliedTo.txt' 
+INTO TABLE AppliedTo 
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n';
+
+-- Load data for Interviewed table
+LOAD DATA LOCAL INFILE '/Users/Home/Documents/Michael_Ghattas/School/DU/MS/Class/2024/Winter/COMP_3421/Assessments/4/data/Interviewed.txt' 
+INTO TABLE Interviewed 
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n';

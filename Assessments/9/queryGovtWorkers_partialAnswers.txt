@@ -1,0 +1,56 @@
+
+Q1: Complete info about people who have 7 children
+{'_id': ObjectId('5c857885e93e8ab38d7d583f'), 'pid': 338, 'firstName': 'Isabella', 'MI': 'C', 'lastName': 'Li', 'state': 'GA', 'age': 90, 'birth': 1929, 'salary': 40189, 'numChildren': 7, 'children': ['Madison J Li', 'Madison B Li', 'Rahul E Li', 'Neha J Li', 'Bob A Li', 'Hasan A Li', 'Raj C Li'], 'weight': 131, 'height': 161}
+{'_id': ObjectId('5c857885e93e8ab38d7d587b'), 'pid': 398, 'firstName': 'Bob', 'MI': 'Y', 'lastName': 'Wong', 'state': 'IL', 'age': 60, 'birth': 1959, 'salary': 108314, 'numChildren': 7, 'children': ['Amy I Wong', 'Vicky B Wong', 'Mohammad R Wong', 'Jeffrey O Wong', 'Joseph X Wong', 'Jayden B Wong', 'Hannah H Wong'], 'weight': 53, 'height': 183}
+... 14 objects removed.....
+
+Q2: pid, state, and name of the children for people who have 7 children
+{'pid': 338, 'state': 'GA', 'children': ['Madison J Li', 'Madison B Li', 'Rahul E Li', 'Neha J Li', 'Bob A Li', 'Hasan A Li', 'Raj C Li']}
+{'pid': 398, 'state': 'IL', 'children': ['Amy I Wong', 'Vicky B Wong', 'Mohammad R Wong', 'Jeffrey O Wong', 'Joseph X Wong', 'Jayden B Wong', 'Hannah H Wong']}
+... 14 objects removed.....
+
+Q3: Complete info of people who live in CA and have 6 children
+{'_id': ObjectId('5c857885e93e8ab38d7d58c0'), 'pid': 467, 'firstName': 'Priya', 'MI': 'M', 'lastName': 'Martinez', 'state': 'CA', 'age': 24, 'birth': 1995, 'salary': 70797, 'numChildren': 6, 'children': ['Santiago N Martinez', 'Bob Y Martinez', 'Sofia Y Martinez', 'Linda N Martinez', 'Daniella C Martinez', 'William V Martinez'], 'weight': 89, 'height': 180}
+... 1 object removed.....
+
+Q4: Complete info of people who live in CA and have 6 or 7 children
+{'_id': ObjectId('5c857885e93e8ab38d7d58c0'), 'pid': 467, 'firstName': 'Priya', 'MI': 'M', 'lastName': 'Martinez', 'state': 'CA', 'age': 24, 'birth': 1995, 'salary': 70797, 'numChildren': 6, 'children': ['Santiago N Martinez', 'Bob Y Martinez', 'Sofia Y Martinez', 'Linda N Martinez', 'Daniella C Martinez', 'William V Martinez'], 'weight': 89, 'height': 180}
+... 2 objects removed.....
+
+Q5: List the pid and children names for all people who have a child whose name contains 'Bob A' => hint - use $regex
+{'pid': 2, 'children': ['Vicky U Wilson', 'Noah X Wilson', 'Bob A Wilson']}
+{'pid': 338, 'children': ['Madison J Li', 'Madison B Li', 'Rahul E Li', 'Neha J Li', 'Bob A Li', 'Hasan A Li', 'Raj C Li']}
+... 3 objects removed.....
+
+Q6: Aggregation 5: number of poeple who have 0, 1, ... 8 children
+{'_id': 0, 'numInGroup': 67}
+{'_id': 1, 'numInGroup': 173}
+{'_id': 2, 'numInGroup': 408}
+... 6 objects removed.....
+
+Q7: Aggregation: avgerage salary for each state:
+{'_id': 'AK', 'avgSalary': 86931.97619047618, 'numInGroup': 42}
+{'_id': 'AL', 'avgSalary': 76397.41304347826, 'numInGroup': 46}
+{'_id': 'AZ', 'avgSalary': 80633.58666666667, 'numInGroup': 75}
+{'_id': 'CA', 'avgSalary': 77116.1282051282, 'numInGroup': 39}
+{'_id': 'CO', 'avgSalary': 83968.02222222222, 'numInGroup': 45}
+... 44 objects removed..... (I left a state out of the data accidentally!  Ooops.  Do not fix...)
+
+Q8: Aggregation: avgerage salary and how many people in the grouping for those living in WI state:
+{'_id': 'WI', 'avgSalary': 81550.875, 'numInGroup': 24}
+
+Q9: Aggregation: average/min/max salary for midwest state:
+{'_id': 'IA', 'avgSalary': 84773.19230769231, 'minSalary': 32278, 'maxSalary': 129977, 'numInGroup': 26}
+{'_id': 'IL', 'avgSalary': 80329.17948717948, 'minSalary': 32045, 'maxSalary': 127126, 'numInGroup': 39}
+{'_id': 'IN', 'avgSalary': 80722.02564102564, 'minSalary': 32116, 'maxSalary': 128675, 'numInGroup': 39}
+... 9 objects removed.....
+
+Q10: Aggregation: avgerage salary in states where the average salary within that state is >= 82,000 and how many people in the grouping for each state:
+{'_id': 'AK', 'avgSalary': 86931.97619047618, 'numInGroup': 42}
+{'_id': 'CO', 'avgSalary': 83968.02222222222, 'numInGroup': 45}
+{'_id': 'CT', 'avgSalary': 86389.48148148147, 'numInGroup': 27}
+... 12 objects removed.....
+
+Q11: Aggregation: average/min/max salary for midwest state whose average salary > 82000:
+{'_id': 'IA', 'avgSalary': 84773.19230769231, 'minSalary': 32278, 'maxSalary': 129977, 'numInGroup': 26}
+... 2 objects removed.....
